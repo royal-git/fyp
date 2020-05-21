@@ -1,4 +1,4 @@
-# Create Episode of Care Fact Table.
+# Create Episode of Care Fact Table. This involves querying multiple tables and combining the results together using structs and repeated fields.
 create table star.denormalized_eoc as
 SELECT
   admission.subject_id,
